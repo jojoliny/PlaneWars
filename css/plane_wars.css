@@ -1,0 +1,48 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: black;
+}
+.box{
+	width: 400px;
+	height: 550px;
+	margin: 20px auto;
+	border: solid 10px white;
+	color: white;
+	text-align: center;
+	position: relative;
+	/*overflow: hidden;*/
+}
+.box h1{
+	color: white;
+	margin: 50px auto;
+}
+.box .button{
+	width: 50%;
+	height: 50px;
+	margin: 50px auto ;
+	line-height: 50px;
+	text-align: center;
+	background-color: white;
+	color: black;
+	font-weight: bold;
+	font-size: 24px;
+	cursor: pointer;
+}
+.box .button:hover{
+	background-color:lightcoral;
+	color: white;
+}
+.box .plane{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.box .bullet{
+	position: absolute;
+}
+.box .enemy{
+	position: absolute;
+}
